@@ -1,7 +1,7 @@
 import cron from "cron";
 import http from "http";
 
-const URL = "http://localhost:4000/graphql";
+const URL = "https://expense-tracker-ogbq.onrender.com/";
 
 const job = new cron.CronJob("14 * * * * *", function () {
   http
