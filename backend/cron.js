@@ -1,10 +1,10 @@
 import cron from "cron";
-import http from "http";
+import https from "https";
 
 const URL = "https://expense-tracker-ogbq.onrender.com/";
 
 const job = new cron.CronJob("14 * * * * *", function () {
-  http
+  https
     .get(URL, (res) => {
       if (res.statusCode === 200) {
         console.log("Get request sent successfully: ", res.statusCode);
