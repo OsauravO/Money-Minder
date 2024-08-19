@@ -3,7 +3,7 @@
 Money-Minder is a comprehensive expense tracking application built on the MERN (MongoDB, Express, React, Node.js) stack with GraphQL integration and Vite for frontend tooling.
 
 ## Deployment
-- https://expense-tracker-ogbq.onrender.com/
+- https://expense-tracker-1-6h9w.onrender.com/login
 
 ## Features
 
